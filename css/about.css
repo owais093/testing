@@ -1,0 +1,434 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  
+}
+body{
+  background-image: url("../Assets/bodyabout.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  z-index: -300;
+  overflow-x: hidden;
+  
+}
+
+/* Baner Start */
+
+  .banner{
+    width: 100vw;
+   min-height:  600px;
+    background-image: url("../Assets/aboutbanne.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+    
+}
+
+
+
+/* Baner End */
+/* About us Section Start */
+.about {
+  width: 100vw;
+  min-height: 500px;
+  background-color: #006266;
+  padding-bottom: 30px;
+  
+
+}
+
+.about h1 {
+  text-align: center;
+  padding-top: 30px;
+  color: #fff;
+}
+
+.about_section {
+  display: flex;
+  
+  justify-content: space-around;
+
+}
+
+.section1 {
+  width: 360px;
+  color: #fff;
+  font-size: 20px;
+  padding-top: 30px;
+  text-align: start;
+ background-color: rgba(184, 176, 176, 0.33);
+  backdrop-filter: blur(30px);
+  border: 2px solid white;
+  border-radius: 20px;
+  margin-top: 30px;
+  padding: 30px 20px 20px 20px;
+  box-shadow: -2px 3px 27px 0px rgba(252, 252, 252, 0.75);
+  -webkit-box-shadow: -2px 3px 27px 0px rgba(252, 252, 252, 0.75);
+  -moz-box-shadow: -2px 3px 27px 0px rgba(252, 252, 252, 0.75);
+
+}
+
+.section1_img {
+  border: 2px solid #fff;
+  width: 360px;
+  min-height: 400px;
+  margin-top: 30px;
+  border-radius: 20px;
+  
+  background-image: url(../Assets/provide.jpg);
+  background-size: cover;
+  box-shadow: -2px 3px 27px 0px rgba(252, 252, 252, 0.75);
+  -webkit-box-shadow: -2px 3px 27px 0px rgba(252, 252, 252, 0.75);
+  -moz-box-shadow: -2px 3px 27px 0px rgba(252, 252, 252, 0.75);
+
+}
+
+/* About us Section End */
+/* provide Section Start */
+.provide {
+  width: 100vw;
+min-height: 500px;
+   border-top: 15px solid  #081b29;
+  background-color: #fff;
+  padding-bottom: 30px;
+}
+
+.provide h1 {
+  color: #006266;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.provide_section {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+
+.provide_content {
+  width: 360px;
+  height: 100%;
+  border: 2px solid #006266;
+  border-radius: 20px;
+  
+  font-size: 20px;
+  text-align:start;
+  padding: 30px 20px 20px 20px;
+  color: #006266;
+  background-color: rgba(184, 176, 176, 0.33);
+  backdrop-filter: blur(20px);
+  box-shadow: 4px 8px 28px 12px rgba(0, 98, 102, 0.44);
+  -webkit-box-shadow: 4px 8px 28px 12px rgba(0, 98, 102, 0.44);
+  -moz-box-shadow: 4px 8px 28px 12px rgba(0, 98, 102, 0.44);
+}
+
+.provide_img {
+  width: 360px;
+  min-height: 400px;
+  border: 2px solid #006266;
+  border-radius: 20px;
+  background-image: url(../Assets/indoor.png);
+  background-size: cover;
+  box-shadow: 4px 8px 28px 12px rgba(0, 98, 102, 0.44);
+  -webkit-box-shadow: 4px 8px 28px 12px rgba(0, 98, 102, 0.44);
+  -moz-box-shadow: 4px 8px 28px 12px rgba(0, 98, 102, 0.44);
+
+}
+
+/* Provide Section End */
+/* Mission Section Start */
+.mission {
+  width: 100vw;
+  min-height: 500px;
+   border-top: 15px solid  #081b29;
+  background-color: #006266;
+  padding-bottom: 30px;
+
+}
+
+.mission h1 {
+  text-align: center;
+  padding-top: 30px;
+  color: #fff;
+}
+
+.mission_section {
+  display: flex;
+  justify-content: space-around;
+}
+
+.section2{
+  width: 360px;
+  color: #fff;
+  font-size: 20px;
+  padding: 40px 30px 20px 30px;
+  text-align: start;
+ background-color: rgba(184, 176, 176, 0.33);
+  backdrop-filter: blur(30px);
+  border: 2px solid white;
+  border-radius: 20px;
+  margin-top: 30px;
+  
+  box-shadow: -2px 3px 27px 0px rgba(252, 252, 252, 0.75);
+  -webkit-box-shadow: -2px 3px 27px 0px rgba(252, 252, 252, 0.75);
+  -moz-box-shadow: -2px 3px 27px 0px rgba(252, 252, 252, 0.75);
+
+}
+
+.section2_img {
+  border: 2px solid #fff;
+  width: 360px;
+  min-height: 400px;
+  margin-top: 30px;
+  border-radius: 20px;
+  
+  background-image: url(../Assets/mission1.jpg);
+  background-size: cover;
+  box-shadow: -2px 3px 27px 0px rgba(252, 252, 252, 0.75);
+  -webkit-box-shadow: -2px 3px 27px 0px rgba(252, 252, 252, 0.75);
+  -moz-box-shadow: -2px 3px 27px 0px rgba(252, 252, 252, 0.75);
+
+}
+
+/* Mission Section End */
+/* vision Section Start */
+.vision {
+  width: 100vw;
+min-height: 500px;
+   border-top: 15px solid  #081b29;
+  background-color: #fff;
+  padding-bottom: 30px;
+}
+
+.vision h1 {
+  color: #006266;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.vision_section {
+  display: flex;
+  justify-content: space-around;
+
+  margin-top: 40px;
+}
+
+.section3 {
+  width: 360px;
+  min-height: 400px;
+  border: 2px solid #006266;
+  border-radius: 20px;
+ 
+  font-size: 20px;
+  text-align:start;
+  padding: 30px 20px 20px 20px;
+  color: #006266;
+  background-color: rgba(184, 176, 176, 0.33);
+  backdrop-filter: blur(20px);
+  box-shadow: 4px 8px 28px 12px rgba(0, 98, 102, 0.44);
+  -webkit-box-shadow: 4px 8px 28px 12px rgba(0, 98, 102, 0.44);
+  -moz-box-shadow: 4px 8px 28px 12px rgba(0, 98, 102, 0.44);
+}
+
+.section3_img {
+  width: 360px;
+  min-height: 400px;
+  border: 2px solid #006266;
+  border-radius: 20px;
+  background-image: url(../Assets/vision1.png);
+  background-size: cover;
+  box-shadow: 4px 8px 28px 12px rgba(0, 98, 102, 0.44);
+  -webkit-box-shadow: 4px 8px 28px 12px rgba(0, 98, 102, 0.44);
+  -moz-box-shadow: 4px 8px 28px 12px rgba(0, 98, 102, 0.44);
+
+}
+
+/* vision Section End */
+/* join us Section Start */
+.join {
+  width: 100vw;
+  min-height: 500px;
+   border-top: 15px solid  #081b29;
+  background-color: #006266;
+  padding-bottom: 30px;
+
+}
+
+.join h1 {
+  text-align: center;
+  padding-top: 30px;
+  color: #fff;
+}
+.join_section{
+  width: 100%;
+  color: #fff;
+  font-size: 20px;
+  padding: 40px 30px 20px 30px;
+  text-align: start;
+ background-color: rgba(184, 176, 176, 0.33);
+  backdrop-filter: blur(30px);
+  border: 2px solid white;
+  border-radius: 20px;
+  margin-top: 30px;
+  
+  box-shadow: -2px 3px 27px 0px rgba(252, 252, 252, 0.75);
+  -webkit-box-shadow: -2px 3px 27px 0px rgba(252, 252, 252, 0.75);
+  -moz-box-shadow: -2px 3px 27px 0px rgba(252, 252, 252, 0.75);
+
+}
+
+
+
+
+
+/* join us Section End */
+
+
+
+/* Style for scrollbar track */
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+/* Width of the scrollbar */
+@media (max-width: 575.98px) { 
+  .about_section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .about{
+    padding-bottom: 30px;
+  }
+  .provide_section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .provide{
+    padding-bottom: 30px;
+  }
+  .provide_content{
+    margin-top: 30px;
+  }
+  .mission_section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .mission{
+    padding-bottom: 30px;
+  }
+  .section2{
+    margin-top: 30px;
+  }
+  .vision_section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .vision{
+    padding-bottom: 30px;
+  }
+  .section3{
+    margin-top: 30px;
+  }
+  .join{
+    width: 100%;
+  }
+
+  
+}
+@media (max-width: 767.98px) { 
+  .about_section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .about{
+    padding-bottom: 30px;
+  }
+  .provide_section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .provide{
+    padding-bottom: 30px;
+  }
+  .provide_content{
+    margin-top: 30px;
+  }
+  .mission_section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .mission{
+    padding-bottom: 30px;
+  }
+  .section2{
+    margin-top: 30px;
+  }
+  .vision_section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .vision{
+    padding-bottom: 30px;
+  }
+  .section3{
+    margin-top: 30px;
+  }
+  .join{
+    width: 100%;
+  }
+ 
+}
+@media (max-width: 340px){
+ 
+ .about ,.provide,.mission,.vision,.join{
+  width: 100%;
+ }
+ .about_section{
+  display: flex;
+  flex-direction: column;
+ }
+ .section1,.section1_img{
+  width: 100%;
+ }
+
+  .provide_content,.provide_img{
+    width: 100%;
+   
+  }
+ .provide_section{
+  display: flex;
+  flex-direction: column;
+ }
+ .mission_section{
+  display: flex;
+  flex-direction: column;
+ }
+  .section2,.section2_img{
+    width: 100%;
+   
+  }
+ .vision_section{
+  display: flex;
+  flex-direction: column;
+ }
+  .section3,.section3_img{
+    width: 100%;
+  }
+  .section3_img{
+    margin-top: 30px;
+  }
+  .join_section{
+    width: 100%;
+  }
+}
